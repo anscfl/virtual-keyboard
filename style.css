@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: "consolas"
+}
+
+.work-zone{
+    margin: 0 auto;
+}
+
+.textarea-input{
+    margin: 10px auto;
+    padding: 0;
+    display: block;
+    width: 800px;
+    height: 310px;
+}
+
+.keyboard{
+    margin: 10px auto;
+    padding: 5px;
+    width: 850px;
+    background-color: black;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.row{
+    width: 100%;
+    height: 40px;
+}
+
+.key{
+    float: left;
+    height: 45px;
+    width: 45px;
+    margin: 4px;
+    line-height: 50px;
+    text-align: center;
+    background: 5px white;
+    border-radius: 2px;
+}
+
+.key:hover{
+    transition: 0.1s;
+    background-color: lightblue;
+}
+
+.key:active{
+    transition: 0.1s;
+    color: white;
+    background-color: blue;
+}
+
+.active{
+    transition: 0.1s;
+    color: white;
+    background-color: blue;
+}
+
+.backspace{
+    width: 153px;
+}
+
+.tab, .capslock, .shift{
+    width: 90px;
+}
+
+.del, .enter{
+    width: 108px;
+}
+
+.right-shift{
+    width: 161px;
+}
+
+.space{
+    width: 365px;
+}
+
+.hidden{
+    display: none;
+}
+
+.info{
+    text-align: center;
+}
